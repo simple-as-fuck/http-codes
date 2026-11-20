@@ -60,6 +60,7 @@ final class HttpCodesTest extends TestCase
             HttpCodes::HTTP_UNSUPPORTED_MEDIA_TYPE,
             HttpCodes::HTTP_REQUESTED_RANGE_NOT_SATISFIABLE,
             HttpCodes::HTTP_EXPECTATION_FAILED,
+            HttpCodes::HTTP_I_AM_A_TEAPOT,
             HttpCodes::HTTP_TOO_MANY_REQUESTS,
 
             HttpCodes::HTTP_INTERNAL_SERVER_ERROR,
