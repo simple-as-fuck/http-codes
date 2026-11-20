@@ -1,38 +1,23 @@
 # http-codes
-[![Latest Stable Version](https://poser.pugx.org/kayex/http-codes/v/stable)](https://packagist.org/packages/kayex/http-codes) [![Total Downloads](https://poser.pugx.org/kayex/http-codes/downloads)](https://packagist.org/packages/kayex/http-codes) [![License](https://poser.pugx.org/kayex/http-codes/license)](https://packagist.org/packages/kayex/http-codes)
 
 PHP library for easily accessing HTTP Status codes.
 
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Optional: Laravel alias](#optional-laravel-alias)
 * [Full reference](#full-reference)
 * [License](#license)
 
 # Installation
 Composer
 ```
-composer require kayex/http-codes
+composer require simple-as-fuck/http-codes
 ```
 
 # Usage
-The codes are accessible as `public static` properties on the HttpCodes class
+The codes are accessible as `public` constants on the HttpCodes class
 ```php
 use Kayex\HttpCodes;
-
-echo HttpCodes::HTTP_OK; // 200
-```
-
-# Optional: Laravel alias
-Laravel users may want to set up an alias for quick access by adding the following to the alias array in `app/config/app.php`:
-```php
-'HttpCodes'         => 'Kayex\HttpCodes',
-```
-
-The codes can then be used like this:
-```php
-use HttpCodes;
 
 echo HttpCodes::HTTP_OK; // 200
 ```
