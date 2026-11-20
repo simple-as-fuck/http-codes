@@ -78,6 +78,7 @@ These are all the available status codes and the names they are accessible under
 |`HTTP_EXPECTATION_FAILED` | 417|
 |`HTTP_I_AM_A_TEAPOT` | 418|
 |`HTTP_MISDIRECTED_REQUEST` | 421|
+|`HTTP_UNPROCESSABLE_ENTITY` | 422|
 |`HTTP_TOO_MANY_REQUESTS` | 429|
 
 
