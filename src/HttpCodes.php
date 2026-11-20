@@ -1,4 +1,6 @@
-<?php namespace Kayex;
+<?php
+
+namespace Kayex;
 
 class HttpCodes
 {
@@ -59,6 +61,7 @@ class HttpCodes
      *
      * @param $code
      * @return bool
+     * @phpstan-ignore-next-line missingType.parameter will be fixed in version 2
      */
     public static function isSuccessful($code)
     {
