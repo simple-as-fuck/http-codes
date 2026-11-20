@@ -16,10 +16,5 @@
         "psr-4": {
             "Kayex\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Kayex\\HttpCodes\\Tests\\": "test/"
-        }
     }
 }
