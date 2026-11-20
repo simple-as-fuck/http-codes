@@ -77,6 +77,7 @@ These are all the available status codes and the names they are accessible under
 |`HTTP_REQUESTED_RANGE_NOT_SATISFIABLE` | 416|
 |`HTTP_EXPECTATION_FAILED` | 417|
 |`HTTP_I_AM_A_TEAPOT` | 418|
+|`HTTP_MISDIRECTED_REQUEST` | 421|
 |`HTTP_TOO_MANY_REQUESTS` | 429|
 
 

@@ -47,6 +47,7 @@ class HttpCodes
     public const HTTP_REQUESTED_RANGE_NOT_SATISFIABLE = 416;
     public const HTTP_EXPECTATION_FAILED = 417;
     public const HTTP_I_AM_A_TEAPOT = 418;
+    public const HTTP_MISDIRECTED_REQUEST = 421;
     public const HTTP_TOO_MANY_REQUESTS = 429;
 
     // [Server Error 5xx]
