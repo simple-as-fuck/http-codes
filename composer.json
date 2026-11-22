@@ -20,6 +20,9 @@
         "spaze/phpstan-disallowed-calls": "^4.15",
         "shipmonk/dead-code-detector": "^1.4"
     },
+    "conflict": {
+        "kayex/http-codes": "*"
+    },
     "autoload": {
         "psr-4": {
             "Kayex\\": "src/"
